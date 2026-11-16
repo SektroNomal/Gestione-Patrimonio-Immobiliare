@@ -1,0 +1,27 @@
+{
+  "name": "Gestione Patrimonio Immobiliare",
+  "short_name": "Patrimonio",
+  "description": "Gestione del patrimonio immobiliare in Italia e all'estero: valori, mutui, affitti, imposte, vendita e rendimenti, con cambi aggiornati. I dati restano nel browser.",
+  "lang": "it",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./#/dashboard",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6fb",
+  "theme_color": "#1e3a8a",
+  "categories": ["finance", "productivity", "business"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Elenco immobili", "short_name": "Immobili", "url": "./#/immobili", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Scadenze", "short_name": "Scadenze", "url": "./#/scadenze", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Confronta immobili", "short_name": "Confronta", "url": "./#/confronta", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Guida", "short_name": "Guida", "url": "./#/guida", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}

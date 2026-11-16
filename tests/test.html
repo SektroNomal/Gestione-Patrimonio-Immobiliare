@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+  <title>Test – Gestione Patrimonio Immobiliare</title>
+  <style>
+    body { font: 14px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 24px; color: #1f2937; background: #f8fafc; }
+    h1 { font-size: 20px; margin: 0 0 4px; }
+    #summary { font-weight: 600; margin: 8px 0 16px; padding: 8px 12px; border-radius: 6px; background: #e5e7eb; }
+    #summary.pass { background: #dcfce7; color: #166534; }
+    #summary.fail { background: #fee2e2; color: #991b1b; }
+    #out { list-style: none; padding: 0; margin: 0; }
+    #out li { padding: 3px 0; border-bottom: 1px solid #e5e7eb; }
+    #out li.ok::before { content: "✔ "; color: #16a34a; }
+    #out li.ko::before { content: "✘ "; color: #dc2626; }
+    #out li.ko { color: #991b1b; }
+    #out li small { color: #6b7280; }
+  </style>
+</head>
+<body>
+  <h1>Test automatici – Gestione Patrimonio Immobiliare</h1>
+  <p>Verifica dei calcoli (imposte, mutui, rendimenti, cambi) e delle funzioni di supporto. I test non leggono né modificano i tuoi dati.</p>
+  <div id="summary">Esecuzione in corso…</div>
+  <ul id="out"></ul>
+
+  <script src="../js/utils.js"></script>
+  <script src="../js/fx.js"></script>
+  <script src="../js/countries.js"></script>
+  <script src="../js/model.js"></script>
+  <script src="../js/tax-it.js"></script>
+  <script src="../js/calc.js"></script>
+  <script src="../js/portals.js"></script>
+  <script src="../js/demo.js"></script>
+  <script src="test.js"></script>
+</body>
+</html>

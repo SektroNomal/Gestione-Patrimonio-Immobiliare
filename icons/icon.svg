@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Gestione Patrimonio Immobiliare</title>
+  <rect width="512" height="512" rx="96" fill="#1e3a8a"/>
+  <path fill="#fff" d="M322 136h34v80h-34z"/>
+  <path fill="#fff" d="M256 108 420 248h-40v156H132V248H92z"/>
+  <path fill="#1e3a8a" d="M156 280h44v44h-44zM312 280h44v44h-44z"/>
+  <path fill="#f59e0b" d="M228 300h56v104h-56z"/>
+</svg>
